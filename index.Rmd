@@ -1,0 +1,25 @@
+--- 
+title: "A Minimal Survey Design Example"
+author: "Corey Pembleton"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+github-repo: "pembletonc/surveydesignbook"
+cover-image: "images/cover.png"
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is a minimal example of using R and limesurvey to develop surveys, and options for presenting survey results"
+---
+
+# Introduction
+
+This book presents several survey design options commonly found in evaluation and monitoring, and how these can be visualized using the R programming language.
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
