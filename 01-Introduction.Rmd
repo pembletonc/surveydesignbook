@@ -1,0 +1,33 @@
+# Introduction {#intro}
+
+```{r, include=FALSE, warning=FALSE, message=FALSE}
+
+library(tidyverse)
+library(kableExtra)
+
+```
+In her very helpful (and open source) article, Dr. Julie Ponto (2015) succinctly describes why it is important to understand the errors which can occur in surveying:
+
+>  It is imperative for the consumer/reader of survey research to understand the potential for bias in survey research as well as the tested techniques for reducing bias, in order to draw appropriate conclusions about the information reported in this manner. @ponto2015
+
+Dr. Ponto lists those types and sources of error as:
+
+```{r, echo=FALSE, warning=FALSE}
+
+tribble(~`Types of error`, ~`Sources of error`,~`Strategies to reduce error`,
+        "Coverage error", "Unknown or 0 chance of individuals in the population being included in the sample ", "Multimode design",
+        "Sampling error", "Individuals included in the sample do not represent the characteristics of the population", "Clearly identify population; diverse participant recruitment strategies; large, random sample",
+        "Measurement error", "Questions / instrument do not accurately reflect the topic of interest; questionnaires / interviews do not evoke truthful answers", "Valid, reliable instruments; pretest questions, user-friendly graphics, visual characteristics",
+        "Nonresponse error", "Lack of response from all individuals in sample", "user-friendly survey design; follow-up procedures for nonresponders"
+        ) %>% 
+  kable(booktabs = T) %>% 
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "bordered")
+  ) %>% 
+  column_spec(1, bold = TRUE, border_right = TRUE) %>% 
+  footnote(symbol = "Source: Ponto, 2015")
+  
+```
+
+Effective survey design must consider these potential errors, and take measures to address them proactively. 
+
