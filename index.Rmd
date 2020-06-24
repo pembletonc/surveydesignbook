@@ -1,5 +1,5 @@
 --- 
-title: "A Minimal Survey Design Example"
+title: "Survey Research Design in Evaluation"
 author: "Corey Pembleton"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -12,10 +12,38 @@ link-citations: yes
 description: "This is a minimal example of using R and limesurvey to develop surveys, and options for presenting survey results"
 ---
 
-# Introduction
+```{r, include=FALSE, warning=FALSE, message=FALSE}
 
-This book presents several survey design options commonly found in evaluation and monitoring, and how these can be visualized using the R programming language.
+library(tidyverse)
 
+```
+
+
+# Preface
+
+Survey research in evaluation is an efficient way to collect data from a wide range of participants using digital or analog formats, and has been extensively used as a means of collecting information from individuals for decades. Surveying is used in a range of professional and academic fields with varying degrees of rigor depending upon need. The rapid growth of online surveying tools has democratized their use among the digitally-literate, and surveys can be created and distributed within a matter of minutes. Surveys can be a highly complex, rigorous approach to research that can accurately measure overall impressions from a population from a given sample size if they are created and distributed correctly. If not used correctly, survey results can be misleading, unrepresentative, and may draw inappropriate conclusions.
+
+## Why this book?
+
+>  It is imperative for the consumer/reader of survey research to understand the potential for bias in survey research as well as the tested techniques for reducing bias, in order to draw appropriate conclusions about the information reported in this manner. @ponto2015
+
+To create effective surveys, it is important to know and reduce sources of error within survey design and subsequently in the analysis  and visualization of the data collected from it. 
+
+
+```{r, echo=FALSE, warning=FALSE}
+
+library(tidyverse)
+
+tribble(~`Types of error`, ~`Sources of error`,~`Strategies to reduce error`
+        ) %>% 
+  kableExtra::kable()
+
+```
+
+## Who is and who isn't the intended audience?
+This book is primarily oriented towards evaluation practioners who use small surveys (less than 1,000 participants) as a 
+
+## About the author
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
