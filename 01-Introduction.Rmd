@@ -1,4 +1,3 @@
-# Introduction {#intro}
 
 ```{r, include=FALSE, warning=FALSE, message=FALSE}
 
@@ -6,11 +5,20 @@ library(tidyverse)
 library(kableExtra)
 
 ```
-In her very helpful (and open source) article, Dr. Julie Ponto (2015) succinctly describes why it is important to understand the errors which can occur in surveying:
 
->  It is imperative for the consumer/reader of survey research to understand the potential for bias in survey research as well as the tested techniques for reducing bias, in order to draw appropriate conclusions about the information reported in this manner. @ponto2015
+# Introduction {#intro}
 
-Dr. Ponto lists those types and sources of error as:
+
+
+##Understanding where common errors can be found
+
+### Survey Design Errors
+In her very helpful (and open source) article, @ponto2015 succinctly describes why it is important to understand the errors which can occur in surveying:
+
+>  "It is imperative for the consumer/reader of survey research to understand the potential for bias in survey research as well as the tested techniques for reducing bias, in order to draw appropriate conclusions about the information reported in this manner." @ponto2015
+
+In my role as an evaluator and a consultant, I often develop surveys for clients as one of several data collection tools, so while I'm the survey designer, I must also keep in mind the perspective of the survey consumer. By helping them understand the biases that exist (Table 1) in the design stage of the survey, 
+
 
 ```{r, echo=FALSE, warning=FALSE}
 
@@ -29,5 +37,7 @@ tribble(~`Types of error`, ~`Sources of error`,~`Strategies to reduce error`,
   
 ```
 
-Effective survey design must consider these potential errors, and take measures to address them proactively. 
+Effective survey design must thus consider these potential errors, and take measures to address them proactively. 
+
+### Survey Analysis and Results Presentation  
 
