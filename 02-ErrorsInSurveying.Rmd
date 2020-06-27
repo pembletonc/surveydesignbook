@@ -1,0 +1,43 @@
+
+```{r, include=FALSE, warning=FALSE, message=FALSE}
+
+library(tidyverse)
+library(kableExtra)
+
+```
+
+# Errors in Surveying (and how to avoid them) {#chapter2}
+
+
+
+##Understanding where common errors can be found
+
+### Survey Design Errors
+In her very helpful (and open source) article, @ponto2015 succinctly describes why it is important to understand the errors which can occur in surveying:
+
+>  "It is imperative for the consumer/reader of survey research to understand the potential for bias in survey research as well as the tested techniques for reducing bias, in order to draw appropriate conclusions about the information reported in this manner." @ponto2015
+
+In my role as an evaluator and a consultant, I often develop surveys for clients as one of several data collection tools, so while I'm the survey designer, I must also keep in mind the perspective of the survey consumer. By helping them understand the biases that exist (Table 1) in the design stage of the survey, 
+
+
+```{r, echo=FALSE, warning=FALSE}
+
+tribble(~`Types of error`, ~`Sources of error`,~`Strategies to reduce error`,
+        "Coverage error", "Unknown or 0 chance of individuals in the population being included in the sample ", "Multimode design",
+        "Sampling error", "Individuals included in the sample do not represent the characteristics of the population", "Clearly identify population; diverse participant recruitment strategies; large, random sample",
+        "Measurement error", "Questions / instrument do not accurately reflect the topic of interest; questionnaires / interviews do not evoke truthful answers", "Valid, reliable instruments; pretest questions, user-friendly graphics, visual characteristics",
+        "Nonresponse error", "Lack of response from all individuals in sample", "user-friendly survey design; follow-up procedures for nonresponders"
+        ) %>% 
+  kable(booktabs = T) %>% 
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "bordered")
+  ) %>% 
+  column_spec(1, bold = TRUE, border_right = TRUE) %>% 
+  footnote(symbol = "Source: Ponto, 2015")
+  
+```
+
+Effective survey design must thus consider these potential errors, and take measures to address them proactively. 
+
+### Survey Analysis and Results Presentation  
+
