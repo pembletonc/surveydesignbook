@@ -1,5 +1,5 @@
 --- 
-title: "Survey Research Design in Evaluation"
+title: "R for Surveys in Evaluation"
 author: "Corey Pembleton"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -15,24 +15,12 @@ description: "This is a minimal example of using R and limesurvey to develop sur
 
 # Preface {-}
 
-Survey research in program evaluation is an efficient way to collect data from a wide range of participants, and is a method which has been used extensively for decades. Surveys, understood to be "fundamentally a matter of asking a sample of people from a population a set of questions and using the answers to describe that population" (@fowler2015), are fundamentally important to program evaluation, and understanding their underlying workings is of equal importance to the person conducting them. 
+Survey research in program evaluation is an efficient way to collect data from a wide range of participants, and is a field which has been used extensively in evaluation for decades. Surveys, understood to be "fundamentally a matter of asking a sample of people from a population a set of questions and using the answers to describe that population" @fowler2014, are fundamentally important to program evaluation. I hope that this book can act as something of a guide for non-statistician evaluators such as myself in how to develop effective surveys. There is an absolute abundance of research on this topic, which I draw from and cite frequently. If ever in doubt of something in this guide - check or ask for the source, I'm more than glad to correct, discuss, and share resources. I hope you enjoy the book and find it a useful reference in your work.
 
-Surveys can be a highly complex, rigorous approach to research that can accurately measure overall impressions from a population from a given sample size if they are created and distributed correctly. If not used correctly, survey results can be misleading, unrepresentative, and may draw inappropriate conclusions.
-
-## Why this book {-}
-
-This book provides a snapshot of what makes a survey effective, from design to the presentation of results. Many evaluators, myself included, do not have formal training in survey design, using surveying instruments, or presenting survey results, yet they are used with near ubiquity in program evaluation.  
-
-This book is a modest attempt to review the literature around surveying in a program evaluation context to guide better practices among evaluators looking to make better surveys.
-
-
-## Who should read this book? {-}
-
-
-## What tools are needed? {-}
-In this book, I use several tools which can easily be replaced by others. For all stages of the data life cycle, I use the R programming language, including the api-calling package ```limer```. For surveying, I prefer to use limesurvey,as it is an open source surveying tool which I find to be affordable, flexible, and user-friendly.
 
 ## About the author {-}
+Hi! I'm a geographer and international development worker by trade and a evaluator by passion. I'm new to the field of evaluation and am interested in driving innovative approaches to evaluation, such as automating common tasks, improving data visualization and management, and fostering more transparent methodological practices. If you find this project interesting, don't hesitate to get in touch on twitter or connect on LinkedIn, chances are if you find this book interesting we're already off to a great start!  
+
 
 
 
