@@ -15,11 +15,13 @@ description: "This is a minimal example of using R and limesurvey to develop sur
 
 # Preface {-}
 
-Survey research in program evaluation is an efficient way to collect data from a wide range of participants, and is a field which has been used extensively in evaluation for decades. Surveys, understood to be "fundamentally a matter of asking a sample of people from a population a set of questions and using the answers to describe that population" @fowler2014, are fundamentally important to program evaluation. I hope that this book can act as something of a guide for non-statistician evaluators such as myself in how to develop effective surveys. There is an absolute abundance of research on this topic, which I draw from and cite frequently. If ever in doubt of something in this guide - check or ask for the source, I'm more than glad to correct, discuss, and share resources. I hope you enjoy the book and find it a useful reference in your work.
+Survey research in program evaluation is an efficient way to collect data from a wide range of participants, and is a field which has been used extensively in evaluation for decades. Surveys, understood to be "fundamentally a matter of asking a sample of people from a population a set of questions and using the answers to describe that population" @fowler2014, are fundamentally important to program evaluation. I hope that this book can act as something of a guide for non-statistician evaluators such as myself in how to develop effective surveys. There is an absolute abundance of research on this topic, which I draw from and cite frequently. I assume in this book that you've already decided that a survey is your preferred data collection method, and thus it doesn't discuss merits of different data collection methods (which you certainly should consider!).  
+
+
 
 
 ## About the author {-}
-Hi! I'm a geographer and international development worker by trade and a evaluator by passion. I'm new to the field of evaluation and am interested in driving innovative approaches to evaluation, such as automating common tasks, improving data visualization and management, and fostering more transparent methodological practices. If you find this project interesting, don't hesitate to get in touch on twitter or connect on LinkedIn, chances are if you find this book interesting we're already off to a great start!  
+I'm an evaluation specialist interested in driving innovative approaches to evaluation, such as automating common tasks using programming languages, improving data visualization and management, and fostering more transparent methodological practices. My background is in international development, environmental studies, and project management. If you find this project interesting, don't hesitate to get in touch on twitter or connect on LinkedIn, chances are if you find this book interesting we're already off to a great start!  
 
 
 
@@ -30,3 +32,5 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown', 'kableExtra', 'dplyr'
 ), 'packages.bib')
 ```
+
+
