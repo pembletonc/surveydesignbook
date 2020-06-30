@@ -1,8 +1,8 @@
 
 ```{r, include=FALSE, warning=FALSE, message=FALSE}
 
-library(tidyverse)
-library(kableExtra)
+library(tidyverse, warn.conflicts = F)
+library(kableExtra, warn.conflicts = F)
 
 ```
 
@@ -10,14 +10,11 @@ library(kableExtra)
 
 
 
-##Understanding where common errors can be found
-
-### Survey Design Errors
-In her very helpful (and open source) article, @ponto2015 succinctly describes why it is important to understand the errors which can occur in surveying:
+## Survey Design Errors
+@ponto2015 describes why it is important to understand the errors which can occur in surveying:
 
 >  "It is imperative for the consumer/reader of survey research to understand the potential for bias in survey research as well as the tested techniques for reducing bias, in order to draw appropriate conclusions about the information reported in this manner." @ponto2015
 
-In my role as an evaluator and a consultant, I often develop surveys for clients as one of several data collection tools, so while I'm the survey designer, I must also keep in mind the perspective of the survey consumer. By helping them understand the biases that exist (Table 1) in the design stage of the survey, 
 
 
 ```{r, echo=FALSE, warning=FALSE}
@@ -37,7 +34,29 @@ tribble(~`Types of error`, ~`Sources of error`,~`Strategies to reduce error`,
   
 ```
 
-Effective survey design must thus consider these potential errors, and take measures to address them proactively. 
+### Coverage errors
 
-### Survey Analysis and Results Presentation  
+
+### Sampling errors
+
+Sampling errors, or errors caused wherein the individual responding to the survey does not represent the population as a whole, can __________. 
+
+@brenner2018 => "mark all that apply" to gender / sexuality description
+
+
+### Measurement errors
+Measurement errors are a broad group of errors that are centered around the questions themselves: their syntax, length, comprehension difficulty, type (e.g. multiple choice or open text), _____. Researchers have been exploring the impact the questions themselves have on survey results since the 1950s (likely longer), and it remains one of the most difficult to resolve errors.
+
+In 1951, S.L. Payne produced a concise checklist of 100 considerations @payne51. 
+
+
+### Nonresponse errors
+
+
+@fowler2016 -> reducing nonresponse error in telephone surveys (case study)
+
+
+
+
+
 
