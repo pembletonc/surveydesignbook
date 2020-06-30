@@ -9,35 +9,33 @@ library(kableExtra)
 # Introduction {#intro}
 
 
+This chapter introduces the book and describes in more detail some of the tools that the book features. Chapter 2 provides an overview of errors in surveying, and gives some practical examples of how to prevent them. Chapter 3 touches on sampling methods in programs and evaluations, with a case study example provided. Chapter 4 
 
-##Understanding where common errors can be found
+## What is considered a survey in this book? {#surveydef}
 
-### Survey Design Errors
-In her very helpful (and open source) article, @ponto2015 succinctly describes why it is important to understand the errors which can occur in surveying:
+In their 6-part series written between 2001 and 2003, Shari Pfleeger and Barbara Kitchenham make the clear distinction that a survey is more than the instrument itself, it is "a comprehensive system for collecting information to describe, compare or explain knowledge, attitudes and behaviour" @pfl1. It is a system which has 10 clearly defined activities:  
 
->  "It is imperative for the consumer/reader of survey research to understand the potential for bias in survey research as well as the tested techniques for reducing bias, in order to draw appropriate conclusions about the information reported in this manner." @ponto2015
+1. Setting specific, measurable objectives
+2. Planning and scheduling the survey
+3. Ensuring that appropriate resources are available
+4. Designing the survey
+5. Preparing the data collection instrument
+6. Validating the instrument
+7. Selecting participants
+8. Administering and scoring the instrument
+9. Analyzing the data
+10. Reporting the results.
 
-In my role as an evaluator and a consultant, I often develop surveys for clients as one of several data collection tools, so while I'm the survey designer, I must also keep in mind the perspective of the survey consumer. By helping them understand the biases that exist (Table 1) in the design stage of the survey, 
+
+## Prerequisite tools used and skills required
+
+To make the most of this book, it's recommended that you have a working knowledge of the R programming language, and have some experience with digital surveying instruments such as SurveyMonkey or Limesurvey. That being said, there is much to be gained from the book even if you don't use any of these tools in your work.
 
 
-```{r, echo=FALSE, warning=FALSE}
+## Intended Audience
 
-tribble(~`Types of error`, ~`Sources of error`,~`Strategies to reduce error`,
-        "Coverage error", "Unknown or 0 chance of individuals in the population being included in the sample ", "Multimode design",
-        "Sampling error", "Individuals included in the sample do not represent the characteristics of the population", "Clearly identify population; diverse participant recruitment strategies; large, random sample",
-        "Measurement error", "Questions / instrument do not accurately reflect the topic of interest; questionnaires / interviews do not evoke truthful answers", "Valid, reliable instruments; pretest questions, user-friendly graphics, visual characteristics",
-        "Nonresponse error", "Lack of response from all individuals in sample", "user-friendly survey design; follow-up procedures for nonresponders"
-        ) %>% 
-  kable(booktabs = T) %>% 
-  kable_styling(
-    bootstrap_options = c("striped", "hover", "bordered")
-  ) %>% 
-  column_spec(1, bold = TRUE, border_right = TRUE) %>% 
-  footnote(symbol = "Source: Ponto, 2015")
-  
-```
 
-Effective survey design must thus consider these potential errors, and take measures to address them proactively. 
 
-### Survey Analysis and Results Presentation  
+
+ 
 
