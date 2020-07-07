@@ -11,20 +11,41 @@ library(kableExtra)
 
 This chapter introduces the book and describes in more detail some of the tools that the book features. Chapter 2 provides an overview of errors in surveying, and gives some practical examples of how to prevent them. Chapter 3 touches on sampling methods in programs and evaluations, with a case study example provided. Chapter 4 
 
-## What is considered a survey in this book? {#surveydef}
+## What is a survey? {#surveydef}
 
-In their 6-part series written between 2001 and 2003, Shari Pfleeger and Barbara Kitchenham make the clear distinction that a survey is more than the instrument itself, it is "a comprehensive system for collecting information to describe, compare or explain knowledge, attitudes and behaviour" @pfl1. It is a system which has 10 clearly defined activities:  
+Survey researchers sometimes distinguish *survey research* from the *survey instrument* itself. Pinsonneault and Kraemer (1993) identify the difference between to be that the survey instrument is the data collection tool itself, whereas survey research is the broader overall approach of "quantitatively describing aspects of a given population" which includes the entire survey process such as the survey design, analysis, and representation of results @glasow2005. Likewise, in their 6-part series written between 2001 and 2003, Software Engineers Shari Pfleeger and Barbara Kitchenham make the clear distinction that a survey is more than the instrument itself, it is "a comprehensive system for collecting information to describe, compare or explain knowledge, attitudes and behaviour" @pfl1.
 
-1. Setting specific, measurable objectives
-2. Planning and scheduling the survey
-3. Ensuring that appropriate resources are available
-4. Designing the survey
-5. Preparing the data collection instrument
-6. Validating the instrument
-7. Selecting participants
-8. Administering and scoring the instrument
-9. Analyzing the data
-10. Reporting the results.
+Floyd Fowler Jr.,  defines two fundamental premises about the surveys: First, that the survey process is "that by describing the sample of people who actually respond, one can describe the target population" and second, "that the answers people give can be used
+to accurately describe characteristics of the respondents" [@fowler2014]. 
+
+In this light, I understand a survey to be more than the instrument itself. A survey is the entire process itself, from survey design to analysis to presenting findings.
+
+### Survey Components
+
+Some researchers understand effective survey design to be rooted in following a sequence of steps, for example, @pfl1 identify 10 steps in the surveying process:  
+1. Setting specific, measurable objectives  
+2. Planning and scheduling the survey  
+3. Ensuring that appropriate resources are available  
+4. Designing the survey  
+5. Preparing the data collection instrument   
+6. Validating the instrument  
+7. Selecting participants  
+8. Administering and scoring the instrument  
+9. Analyzing the data  
+10. Reporting the results.    
+
+@glasow2005 similarly defines four steps in the survey process: survey design (sample selection, sample size, survey instrument selection), survey instrument development, survey execution, and data analysis and reporting survey results (also see @moll2016 for a meta-review of other suggested survey processes).  
+
+While these approaches are intuitive and practical
+
+As early as 1998, @groves2009 began to depart from the idea that "if step-by-step instructions were followed, high quality would be guaranteed" from surveys, and instead see surveys as "requiring the implementation of principles in unique ways to fit a particular substantive purpose for a particular target population" [@groves2009, 17]. I feel that this methodological approach is better suited to non-
+
+@fowler2014 identifies three methodologies within the survey itself: sampling, question design, interviewing (when applicable), and the mode of data collection, which when combined with the decision-making necessary in each component, comprise what he calls *total survey design*. 
+
+
+
+
+
 
 
 ## Prerequisite tools used and skills required
