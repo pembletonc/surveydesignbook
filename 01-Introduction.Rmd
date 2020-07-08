@@ -13,14 +13,16 @@ This chapter introduces the book and describes in more detail some of the tools 
 
 ## What is a survey? {#surveydef}
 
-Survey researchers sometimes distinguish *survey research* from the *survey instrument* itself. Pinsonneault and Kraemer (1993) identify the difference between to be that the survey instrument is the data collection tool itself, whereas survey research is the broader overall approach of "quantitatively describing aspects of a given population" which includes the entire survey process such as the survey design, analysis, and representation of results @glasow2005. Likewise, in their 6-part series written between 2001 and 2003, Software Engineers Shari Pfleeger and Barbara Kitchenham make the clear distinction that a survey is more than the instrument itself, it is "a comprehensive system for collecting information to describe, compare or explain knowledge, attitudes and behaviour" @pfl1.
+In their comprehensive work on survey methodology, @groves2009 describe surveys in a similar way as used in other social sciences, including evaluation. They describe surveys as: i) gathering information primarily by asking people questions; collecting information by having interviewers ask questions and record answers, or by having people read/hear questions and record their own answers; and that information is collected from a subset of the population (a sample) (p. 27).  
 
-Floyd Fowler Jr.,  defines two fundamental premises about the surveys: First, that the survey process is "that by describing the sample of people who actually respond, one can describe the target population" and second, "that the answers people give can be used
-to accurately describe characteristics of the respondents" [@fowler2014]. 
+This understanding of surveys has two fundamental premises. First, that the survey process is "that by describing the sample of people who actually respond, one can describe the target population" and second, "that the answers people give can be used to accurately describe characteristics of the respondents" [@fowler2014].  
 
-In this light, I understand a survey to be more than the instrument itself. A survey is the entire process itself, from survey design to analysis to presenting findings.
+Surveys in this regard are more than the data collection instrument, but rather are a systematic approach to data collection and analysis, @pfl1 describes them as "a comprehensive system for collecting information to describe, compare or explain knowledge, attitudes and behaviour", the comprehensiveness including the consideration of errors, sampling techniques, analysis methods, reporting, etc.  
 
+These definitions suit the purpose of this book, and I feel adequately describe surveying as a data collection tool used in evaluation.  
 ### Survey Components
+
+
 
 Some researchers understand effective survey design to be rooted in following a sequence of steps, for example, @pfl1 identify 10 steps in the surveying process:  
 1. Setting specific, measurable objectives  
